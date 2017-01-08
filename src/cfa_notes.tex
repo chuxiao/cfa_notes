@@ -1,0 +1,40 @@
+\documentclass[oneside, 17pt, titlepage]{memoir}
+\usepackage[paperwidth=6in, paperheight=9in, margin=2mm,bottom=6mm,nohead]{geometry}
+\setlength{\footskip}{4mm}
+\makeoddfoot{plain}{}{\tiny\thepage}{}
+\makeevenfoot{plain}{}{\tiny\thepage}{}
+\pagestyle{plain}
+\setlength{\abovecaptionskip}{2pt}
+\setlength{\belowcaptionskip}{0pt}
+\setlength{\textfloatsep}{2pt}
+\setlength{\floatsep}{2pt}
+\setlength{\intextsep}{2pt}
+\usepackage[colorlinks=true]{hyperref}
+
+\hypersetup{pdftitle={CFA NOTES}, pdfkeywords={CFA, Notes}, pdfcreator={Chu Xiao}}
+
+\makeindex
+\begin{document}
+
+%\pagenumbering{Alph}
+% 标题页
+\title{CFA NOTES}
+\author{Chu Xiao}
+\date{\url{yanzengyan99@qq.com}}
+\begin{titlingpage}
+    \begin{center}
+        \maketitle
+    \end{center}
+\end{titlingpage}
+\tableofcontents
+
+\mainmatter
+
+\part{Quantitative Methods}
+\part{Test}
+
+
+\backmatter
+\printindex
+
+\end{document}
